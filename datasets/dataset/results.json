@@ -1,0 +1,171 @@
+{
+    "image001.jpg": [
+        {
+            "labels": "阳虚血瘀",
+            "points": [
+                [
+                    175.0,
+                    136.0
+                ],
+                [
+                    222.0,
+                    222.0
+                ]
+            ]
+        },
+        {
+            "labels": "湿热下注",
+            "points": [
+                [
+                    253.0,
+                    255.0
+                ],
+                [
+                    320.0,
+                    307.0
+                ]
+            ]
+        },
+        {
+            "labels": "失眠",
+            "points": [
+                [
+                    92.0,
+                    15.0
+                ],
+                [
+                    205.0,
+                    57.0
+                ]
+            ]
+        }
+    ],
+    "image002.jpg": [
+        {
+            "labels": "肺部陈旧性损伤",
+            "points": [
+                [
+                    198.0,
+                    70.0
+                ],
+                [
+                    227.0,
+                    123.0
+                ]
+            ]
+        },
+        {
+            "labels": "大便溏稀",
+            "points": [
+                [
+                    124.0,
+                    116.0
+                ],
+                [
+                    164.0,
+                    184.0
+                ]
+            ]
+        }
+    ],
+    "image004.jpg": [
+        {
+            "labels": "肝火上冲",
+            "points": [
+                [
+                    100.0,
+                    75.0
+                ],
+                [
+                    161.0,
+                    115.0
+                ]
+            ]
+        },
+        {
+            "labels": "肺部陈旧性损伤, 湿重",
+            "points": [
+                [
+                    233.0,
+                    79.0
+                ],
+                [
+                    258.0,
+                    122.0
+                ]
+            ]
+        }
+    ],
+    "image005.jpg": [],
+    "image006.jpg": [
+        {
+            "labels": "胸闷气短, 湿热下注",
+            "points": [
+                [
+                    94.0,
+                    125.0
+                ],
+                [
+                    142.0,
+                    185.0
+                ]
+            ]
+        },
+        {
+            "labels": "肺部陈旧性损伤",
+            "points": [
+                [
+                    247.0,
+                    27.0
+                ],
+                [
+                    274.0,
+                    70.0
+                ]
+            ]
+        }
+    ],
+    "image007.jpg": [],
+    "image008.jpg": [],
+    "image009.jpg": [],
+    "image010.jpg": [],
+    "image011.jpg": [],
+    "image012.jpg": [],
+    "image013.jpg": [],
+    "image014.jpg": [],
+    "image015.jpg": [],
+    "image016.jpg": [],
+    "image017.jpg": [],
+    "image018.jpg": [],
+    "image019.jpg": [],
+    "image020.jpg": [],
+    "image021.jpg": [],
+    "image022.jpg": [],
+    "image023.jpg": [],
+    "image024.jpg": [],
+    "image025.jpg": [],
+    "image026.jpg": [],
+    "image027.jpg": [],
+    "image028.jpg": [],
+    "image029.jpg": [],
+    "image030.jpg": [],
+    "image031.jpg": [],
+    "image032.jpg": [],
+    "image033.jpg": [],
+    "image034.jpg": [],
+    "image035.jpg": [],
+    "image036.jpg": [],
+    "image037.jpg": [],
+    "image038.jpg": [],
+    "image039.jpg": [],
+    "image040.jpg": [],
+    "image041.jpg": [],
+    "image042.jpg": [],
+    "image043.jpg": [],
+    "image044.jpg": [],
+    "image045.jpg": [],
+    "image046.jpg": [],
+    "image047.jpg": [],
+    "image048.jpg": [],
+    "image049.jpg": []
+}
