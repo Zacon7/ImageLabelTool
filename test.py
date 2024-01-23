@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox
 
+
 class LabelSelector:
     def __init__(self, master, labels, on_ok, on_cancel):
         self.master = master
@@ -58,9 +59,10 @@ class LabelSelector:
         self.top.destroy()
         if self.on_cancel:
             self.on_cancel()
-    
+
     def on_closing(self):
         self.on_cancel_button()
+
 
 class RectSelector:
     def __init__(self, master):
@@ -87,7 +89,7 @@ class RectSelector:
         self.end_x = self.canvas.canvasx(event.x)
         self.end_y = self.canvas.canvasy(event.y)
         self.canvas.coords(self.rect, self.start_x, self.start_y, self.end_x, self.end_y)
-    
+
     def on_button_release(self, event):
         self.show_label_selector()
 
@@ -113,7 +115,8 @@ class RectSelector:
         self.end_x = None
         self.end_y = None
         self.rect_tags = []
-        #self.label_selector = None
+        # self.label_selector = None
+
 
 root = tk.Tk()
 app = RectSelector(root)
