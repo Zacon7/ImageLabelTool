@@ -1,28 +1,15 @@
-# img-mark-tool
+# ImageLabelTool
 
 图像多标签标注工具
 
 ## 使用方法
 
-labels.ini 填写自己的标签分类
+0. 务必所有待标注图片保存到同一个文件夹下，并在该文件夹下创建一个文件用于存放标签信息，名为`labels.ini`，每个类别独占一行
 
-```shell script
-git clone https://github.com/who0sy/img-mark-tool.git
-cd img-mark-tool
-python3 -m venv env #  创建虚拟环境
-. env/bin/activate # 切换至虚拟环境
-pip install Pillow # 安装依赖
-python3 tool.py # 运行工具
-```
+1. 打开程序，打开图片文件夹目录
 
-1. 打开图片目录
-   ![](WechatIMG5.png)
+2. 对每张图片进行分类标注（支持勾选多标签），左键框选，右键撤回，每张图片的撤回机制都是独立的，互相不影响
 
-
-2. 对每张图片进行分类标注, 然后点击`下一步`
-   ![img_1.png](img_1.png)
-
-3. 所有图片标注完成后点击`保存并退出`，在图片目录会生成`results.json`文件，文件内容如下
-   ![img.png](img.png)
+3. 所有图片标注完成后点击`保存数据`，在图片目录会生成`results.json`文件保存标注信息，并不会影响原图。下次打开文件夹后会读取标注信息并将标注框还原出来
 
 4. 根据自己所用框架调整`results.json`文件数据格式
